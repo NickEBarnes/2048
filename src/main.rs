@@ -1,3 +1,4 @@
+
 extern crate piston_window ;
 extern crate lib_2048 ;
 extern crate gfx_device_gl;
@@ -24,7 +25,7 @@ fn display<C:HasVal>(cell: &C){
 
 impl HasVal for Cell{
     fn get_val(&self) -> usize{
-        ;
+
     }
 }
 
@@ -243,3 +244,4 @@ fn main() {
   }
 
 }
+
